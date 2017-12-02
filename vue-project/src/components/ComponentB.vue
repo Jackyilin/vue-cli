@@ -1,14 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    {{msg}}
   </div>
 </template>
-
 <script>
 export default {
-    name: 'app'
+  props: ['msg']
 }
 </script>
-
 <style>
+
 </style>
